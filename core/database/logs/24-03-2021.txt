@@ -1,0 +1,22 @@
+Time : 23:22:24
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'okul_proje.authoritiesmissions' doesn't exist
+Raw SQL : SELECT * FROM authoritiesMissions ORDER BY authoritiesMissionsId ASC
+
+Time : 23:22:22
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'okul_proje.authoritiesmissions' doesn't exist
+Raw SQL : SELECT * FROM authoritiesMissions
+
+Time : 23:22:19
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'okul_proje.authoritiesmissions' doesn't exist
+Raw SQL : SELECT * FROM authoritiesMissions ORDER BY authoritiesMissionsId ASC
+
+Time : 23:22:13
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'okul_proje.administrationapproval' doesn't exist
+Raw SQL : SELECT * FROM administrationapproval ORDER BY administrationApprovalId ASC
+
+Time : 23:22:06
+SQLSTATE[42S02]: Base table or view not found: 1146 Table 'okul_proje.administrationapproval' doesn't exist
+Raw SQL : SELECT * FROM administrationapproval ORDER BY administrationApprovalId ASC
+
+Time : 14:36:21
+SQLSTATE[HY000] [1049] Unknown database 'okulproje'

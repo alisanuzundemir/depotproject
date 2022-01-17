@@ -1,0 +1,35 @@
+Time : 17:08:04
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'inventoryDate' in 'order clause'
+Raw SQL : SELECT * FROM depotout WHERE stocksId = :stocksId ORDER BY inventoryDate ASC
+
+Time : 17:01:15
+SQLSTATE[01000]: Warning: 1265 Data truncated for column 'supportStatus' at row 1
+Raw SQL : INSERT INTO `support` (supportParentId,supportUserId,supportSubject,supportText,supportDate,supportStatus) VALUES (:supportParentId,:supportUserId,:supportSubject,:supportText,:supportDate,:supportStatus)
+
+Time : 16:58:31
+SQLSTATE[01000]: Warning: 1265 Data truncated for column 'supportStatus' at row 1
+Raw SQL : INSERT INTO `support` (supportParentId,supportUserId,supportSubject,supportText,supportDate,supportStatus) VALUES (:supportParentId,:supportUserId,:supportSubject,:supportText,:supportDate,:supportStatus)
+
+Time : 16:56:35
+SQLSTATE[01000]: Warning: 1265 Data truncated for column 'supportStatus' at row 1
+Raw SQL : INSERT INTO `support` (supportParentId,supportUserId,supportSubject,supportText,supportDate,supportStatus) VALUES (:supportParentId,:supportUserId,:supportSubject,:supportText,:supportDate,:supportStatus)
+
+Time : 16:51:45
+SQLSTATE[01000]: Warning: 1265 Data truncated for column 'supportStatus' at row 1
+Raw SQL : INSERT INTO `support` (supportParentId,supportUserId,supportSubject,supportText,supportDate,supportStatus) VALUES (:supportParentId,:supportUserId,:supportSubject,:supportText,:supportDate,:supportStatus)
+
+Time : 16:39:35
+SQLSTATE[01000]: Warning: 1265 Data truncated for column 'supportStatus' at row 1
+Raw SQL : INSERT INTO `support` (supportParentId,supportUserId,supportSubject,supportText,supportDate,supportStatus) VALUES (:supportParentId,:supportUserId,:supportSubject,:supportText,:supportDate,:supportStatus)
+
+Time : 16:36:52
+SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'supportParentId' at row 1
+Raw SQL : INSERT INTO `support` (supportParentId,supportUserId,supportSubject,supportText,supportDate,supportStatus) VALUES (:supportParentId,:supportUserId,:supportSubject,:supportText,:supportDate,:supportStatus)
+
+Time : 16:31:35
+SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'supportParentId' at row 1
+Raw SQL : INSERT INTO `support` (supportParentId,supportUserId,supportSubject,supportText,supportDate,supportStatus) VALUES (:supportParentId,:supportUserId,:supportSubject,:supportText,:supportDate,:supportStatus)
+
+Time : 12:38:28
+SQLSTATE[HY000]: General error: 1366 Incorrect integer value: '' for column 'supportParentId' at row 1
+Raw SQL : INSERT INTO `support` (supportParentId,supportUserId,supportSubject,supportText,supportDate,supportStatus) VALUES (:supportParentId,:supportUserId,:supportSubject,:supportText,:supportDate,:supportStatus)

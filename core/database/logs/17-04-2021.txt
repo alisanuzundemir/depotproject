@@ -1,0 +1,11 @@
+Time : 21:02:30
+SQLSTATE[HY000]: General error: 1364 Field 'compAutId' doesn't have a default value
+Raw SQL : INSERT INTO inventory (stocksId,companiesId,inventoryQty,inventoryQtyUnit,inventoryDate,inventoryPrice,inventoryPriceType,inventoryPriceUnit,inventoryCreatedAt,inventoryCreatedUser) VALUES (:stocksId,:companiesId,:inventoryQty,:inventoryQtyUnit,:inventoryDate,:inventoryPrice,:inventoryPriceType,:inventoryPriceUnit,:inventoryCreatedAt,:inventoryCreatedUser)
+
+Time : 20:59:58
+SQLSTATE[01000]: Warning: 1265 Data truncated for column 'inventoryQtyUnit' at row 1
+Raw SQL : INSERT INTO inventory (stocksId,companiesId,inventoryQty,inventoryQtyUnit,inventoryDate,inventoryPrice,inventoryPriceType,inventoryPriceUnit,inventoryCreatedAt,inventoryCreatedUser) VALUES (:stocksId,:companiesId,:inventoryQty,:inventoryQtyUnit,:inventoryDate,:inventoryPrice,:inventoryPriceType,:inventoryPriceUnit,:inventoryCreatedAt,:inventoryCreatedUser)
+
+Time : 20:58:04
+SQLSTATE[01000]: Warning: 1265 Data truncated for column 'inventoryQtyUnit' at row 1
+Raw SQL : INSERT INTO inventory (stocksId,companiesId,inventoryQty,inventoryQtyUnit,inventoryDate,inventoryPrice,inventoryPriceType,inventoryPriceUnit,inventoryCreatedAt,inventoryCreatedUser) VALUES (:stocksId,:companiesId,:inventoryQty,:inventoryQtyUnit,:inventoryDate,:inventoryPrice,:inventoryPriceType,:inventoryPriceUnit,:inventoryCreatedAt,:inventoryCreatedUser)
